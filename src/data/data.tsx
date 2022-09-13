@@ -1,5 +1,9 @@
 import {
+  AcademicCapIcon,
+  CalendarIcon,
   DownloadIcon,
+  MapIcon,
+  SparklesIcon,
 } from '@heroicons/react/outline';
 
 
@@ -7,8 +11,9 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-
+import profilepic from '../images/profilepic.jpg';
 import {
+  About,
   ContactSection,
   ContactType,
   Hero,
@@ -71,7 +76,19 @@ export const heroData: Hero = {
   ],
 };
 
-
+/**
+ * About section
+ */
+export const aboutData: About = {
+  profileImageSrc: profilepic,
+  description: `blah blah blah`,
+  aboutItems: [
+    {label: 'Location', text: 'Kansas City, MO', Icon: MapIcon},
+    {label: 'Age', text: '26', Icon: CalendarIcon},
+    {label: 'Interests', text: 'Hiking, Photography, Video Games', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Kansas', Icon: AcademicCapIcon},
+  ],
+};
 
 /**
  * Contact section
