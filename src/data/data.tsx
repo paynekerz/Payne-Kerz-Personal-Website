@@ -6,7 +6,7 @@ import {
   SparklesIcon,
 } from '@heroicons/react/outline';
 
-
+import testimonialImage from '../images/testimonial.webp';
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -18,6 +18,7 @@ import {
   ContactType,
   Hero,
   HomepageMeta,
+  TestimonialSection,
   Social,
 } from './dataDef';
 
@@ -87,6 +88,19 @@ export const aboutData: About = {
     {label: 'Age', text: '26', Icon: CalendarIcon},
     {label: 'Interests', text: 'Hiking, Photography, Video Games', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Kansas', Icon: AcademicCapIcon},
+  ],
+};
+
+/**
+ * Testimonial section
+ */
+ export const testimonial: TestimonialSection = {
+  imageSrc: testimonialImage,
+  testimonials: [
+    {
+      name: 'Nate Pruessner - Senior Software Engineer Team Lead at Generation Esports',
+      text: "If you're looking for a developer that doesn't quit, that keeps learning, and keeps asking questions to improve, Payne is your guy.",
+    },
   ],
 };
 

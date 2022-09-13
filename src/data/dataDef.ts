@@ -72,6 +72,15 @@ export interface SkillGroup {
   skills: Skill[];
 }
 
+/**
+ * Portfolio section
+ */
+export interface PortfolioItem {
+  title: string;
+  description: string;
+  url: string;
+  imageUrl: string;
+}
 
 /**
  * Resume section
