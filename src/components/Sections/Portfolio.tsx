@@ -9,20 +9,13 @@ import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';
 
 const Portfolio: FC = memo(() => {
-  const PortfolioItems: PortfolioItem[] = [
-    ...portfolioItems
-  ].map((item, idx) => {
-    const {imageUrl, ...rest} = item;
-    // Simply a seed value for unsplash random image
-    return {imageUrl: `${imageUrl}?sig=${idx}`, ...rest};
-  });
 
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
         <h2 className="self-center text-xl font-bold text-white">Check out some of my work</h2>
         <div className=" w-full columns-2 md:columns-3 lg:columns-4">
-          {PortfolioItems.map((item, index) => {
+          {portfolioItems.map((item, index) => {
             const {title, imageUrl} = item;
             return (
               <div className="pb-6" key={`${title}-${index}`}>

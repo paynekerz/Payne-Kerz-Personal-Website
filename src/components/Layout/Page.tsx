@@ -17,7 +17,7 @@ const Page: NextPage<PageProps> = memo(({children, title, description}) => {
         <title>{title}</title>
         <meta content={description} name="description" />
 
-        {/*making sure google uses this domain*/}
+        {/* several domains list the same content, make sure google knows we mean this one. */}
         <link href={`https://payneresume.com${pathname}`} key="canonical" rel="canonical" />
 
         <link href="/minilogo.ico" rel="icon" sizes="any" />
@@ -29,7 +29,6 @@ const Page: NextPage<PageProps> = memo(({children, title, description}) => {
         <meta content={title} property="og:title" />
         <meta content={description} property="og:description" />
         <meta content={`https://payneresume.com${pathname}`} property="og:url" />
-
       </Head>
       {children}
     </>

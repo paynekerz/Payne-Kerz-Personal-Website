@@ -6,22 +6,22 @@ import {
   SparklesIcon,
 } from '@heroicons/react/outline';
 
-import testimonialImage from '../images/testimonial.webp';
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import profilepic from '../images/profilepic.jpg';
+import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
   ContactType,
   Hero,
   HomepageMeta,
-  TestimonialSection,
   PortfolioItem,
   SkillGroup,
   Social,
+  TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -31,7 +31,6 @@ import {
 export const homePageMeta: HomepageMeta = {
   title: 'Payne Kerz',
   description: ``,
-  ogImageUrl: ``,
 };
 
 /**
@@ -42,10 +41,10 @@ export const SectionId = {
   About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
-  Testimonials: 'testimonials',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
+  Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -53,7 +52,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
 /**
  * Hero section
  */
-export const heroData: Hero = {
+ export const heroData: Hero = {
   imageSrc: heroImage,
   name: `Hi, I'm Payne.`,
   description: (
@@ -84,7 +83,7 @@ export const heroData: Hero = {
 /**
  * About section
  */
-export const aboutData: About = {
+ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `blah blah blah`,
   aboutItems: [
@@ -96,22 +95,9 @@ export const aboutData: About = {
 };
 
 /**
- * Testimonial section
- */
- export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
-  testimonials: [
-    {
-      name: 'Nate Pruessner - Senior Software Engineer Team Lead at Generation Esports',
-      text: "If you're looking for a developer that doesn't quit, that keeps learning, and keeps asking questions to improve, Payne is your guy.",
-    },
-  ],
-};
-
-/**
  * Skills section
  */
-export const skills: SkillGroup[] = [
+ export const skills: SkillGroup[] = [
   {
     name: 'Frontend development',
     skills: [
@@ -155,9 +141,6 @@ export const skills: SkillGroup[] = [
   },
 ];
 
-/**
- * Portfolio section
- */
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Placeholder',
@@ -185,6 +168,24 @@ export const portfolioItems: PortfolioItem[] = [
   },
 ];
 
+/**
+ * Resume section 
+ */
+ export const education: TimelineItem[] = [
+  {
+    date: 'May 2021 - August 2021',
+    location: 'University of Arizona',
+    title: 'Full Stack Web Development Program',
+    content: <p>Certificate of Completion</p>,
+  },
+  {
+    date: 'August 2015 - January 2020',
+    location: 'University of Kansas',
+    title: 'General Studies with coursework in Computer Science and Mathematics',
+    content: <p>106 Credit Hours. Bachelor of Arts</p>,
+  },
+
+];
 
 export const experience: TimelineItem[] = [
   {
@@ -200,28 +201,23 @@ export const experience: TimelineItem[] = [
 ];
 
 /**
- * Resume section 
+ * Testimonial section
  */
-export const education: TimelineItem[] = [
-  {
-    date: 'May 2021 - August 2021',
-    location: 'University of Arizona',
-    title: 'Full Stack Web Development Program',
-    content: <p>Certificate of Completion</p>,
-  },
-  {
-    date: 'August 2015 - January 2020',
-    location: 'University of Kansas',
-    title: 'General Studies with coursework in Computer Science and Mathematics',
-    content: <p>106 Credit Hours. Bachelor of Arts</p>,
-  },
+ export const testimonial: TestimonialSection = {
+  imageSrc: testimonialImage,
+  testimonials: [
+    {
+      name: 'Nate Pruessner - Senior Software Engineer Team Lead at Generation Esports',
+      text: "If you're looking for a developer that doesn't quit, that keeps learning, and keeps asking questions to improve, Payne is your guy.",
+    },
+  ],
+};
 
-];
 /**
  * Contact section
  */
 
-export const contact: ContactSection = {
+ export const contact: ContactSection = {
   headerText: 'Reach Out.',
   description: 'blah blah blah.',
   items: [
@@ -251,7 +247,7 @@ export const contact: ContactSection = {
 /**
  * Socials
  */
-export const socialLinks: Social[] = [
+ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/paynekerz'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/paynekerz/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/payne_kerz/'},

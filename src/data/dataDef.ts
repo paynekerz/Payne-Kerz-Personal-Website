@@ -1,12 +1,11 @@
-import {FC, SVGProps} from 'react';
 import {StaticImageData} from 'next/image';
+import {FC, SVGProps} from 'react';
 
 import {IconProps} from '../components/Icon/Icon';
 
 export interface HomepageMeta {
   title: string;
   description: string;
-  ogImageUrl: string;
 }
 
 /**
@@ -42,14 +41,6 @@ export interface AboutItem {
 }
 
 /**
- * Testimonial section
- */
- export interface TestimonialSection {
-  imageSrc?: string | StaticImageData;
-  testimonials: Testimonial[];
-}
-
-/**
  * Stat section
  */
 export interface Stat {
@@ -64,7 +55,6 @@ export interface Stat {
 
 export interface Skill {
   name: string;
-  max?: number;
 }
 
 export interface SkillGroup {
@@ -92,6 +82,13 @@ export interface TimelineItem {
   content: JSX.Element;
 }
 
+/**
+ * Testimonial section
+ */
+export interface TestimonialSection {
+  imageSrc?: string | StaticImageData;
+  testimonials: Testimonial[];
+}
 
 export interface Testimonial {
   image?: string;
