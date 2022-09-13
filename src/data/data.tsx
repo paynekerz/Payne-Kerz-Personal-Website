@@ -19,7 +19,9 @@ import {
   Hero,
   HomepageMeta,
   TestimonialSection,
+  SkillGroup,
   Social,
+  TimelineItem,
 } from './dataDef';
 
 /**
@@ -103,6 +105,41 @@ export const aboutData: About = {
     },
   ],
 };
+
+
+
+export const experience: TimelineItem[] = [
+  {
+    date: 'February 2022 - September 2022',
+    location: 'Generation Esports',
+    title: 'Full Stack Engineer',
+    content: (
+      <p>
+        blah blah blah also list skill learned
+      </p>
+    ),
+  },
+];
+
+
+/**
+ * Resume section 
+ */
+export const education: TimelineItem[] = [
+  {
+    date: 'May 2021 - August 2021',
+    location: 'University of Arizona',
+    title: 'Full Stack Web Development Program',
+    content: <p>Certificate of Completion</p>,
+  },
+  {
+    date: 'August 2015 - January 2020',
+    location: 'University of Kansas',
+    title: 'General Studies with coursework in Computer Science and Mathematics',
+    content: <p>106 Credit Hours. Bachelor of Arts</p>,
+  },
+
+];
 
 /**
  * Contact section
