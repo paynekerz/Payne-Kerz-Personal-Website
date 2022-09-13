@@ -7,6 +7,7 @@ import Contact from '../components/Sections/Contact';
 import Footer from '../components/Sections/Footer';
 import Hero from '../components/Sections/Hero';
 import Testimonials from '../components/Sections/Testimonials';
+import Portfolio from '../components/Sections/Portfolio';
 import Resume from '../components/Sections/Resume';
 
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});

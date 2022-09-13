@@ -19,6 +19,7 @@ import {
   Hero,
   HomepageMeta,
   TestimonialSection,
+  PortfolioItem,
   SkillGroup,
   Social,
   TimelineItem,
@@ -40,6 +41,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
+  Portfolio: 'portfolio',
   Testimonials: 'testimonials',
   Resume: 'resume',
   Skills: 'skills',
@@ -106,6 +108,53 @@ export const aboutData: About = {
   ],
 };
 
+/**
+ * Skills section
+ */
+export const skills: SkillGroup[] = [
+  {
+    name: 'Frontend development',
+    skills: [
+      {
+        name: 'React',
+      },
+      {
+        name: 'Typescript',
+      },
+      {
+        name: 'GraphQL',
+      },
+    ],
+  },
+  {
+    name: 'Backend development',
+    skills: [
+      {
+        name: 'Node.js',
+      },
+    ],
+  },
+  {
+    name: 'Mobile development',
+    skills: [
+      {
+        name: 'React Native',
+      },
+    ],
+  },
+  {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'English - Native',
+      },
+      {
+        name: 'Japanese - Beginner',
+      },
+    ],
+  },
+];
+
 
 
 export const experience: TimelineItem[] = [
@@ -139,6 +188,35 @@ export const education: TimelineItem[] = [
     content: <p>106 Credit Hours. Bachelor of Arts</p>,
   },
 
+];
+/**
+ * Portfolio section
+ */
+ export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'Placeholder',
+    description: 'blah blah blah',
+    url: 'https://github.com/paynekerz',
+    imageUrl: 'https://source.unsplash.com/collection/51517718/',
+  },
+  {
+    title: 'Placeholder',
+    description: 'blah blah blah',
+    url: 'https://github.com/paynekerz',
+    imageUrl: 'https://source.unsplash.com/collection/51517718/',
+  },
+  {
+    title: 'Placeholder',
+    description: 'blah blah blah',
+    url: 'https://github.com/paynekerz',
+    imageUrl: 'https://source.unsplash.com/collection/51517718/',
+  },
+  {
+    title: 'Placeholder',
+    description: 'blah blah blah',
+    url: 'https://github.com/paynekerz',
+    imageUrl: 'https://source.unsplash.com/collection/51517718/',
+  },
 ];
 
 /**
