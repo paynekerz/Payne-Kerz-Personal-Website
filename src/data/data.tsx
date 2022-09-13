@@ -1,3 +1,8 @@
+import {
+  DownloadIcon,
+} from '@heroicons/react/outline';
+
+
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -5,6 +10,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import {
   ContactSection,
   ContactType,
+  Hero,
   HomepageMeta,
   Social,
 } from './dataDef';
