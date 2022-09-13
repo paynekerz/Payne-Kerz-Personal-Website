@@ -5,6 +5,8 @@ import Page from '../components/Layout/Page';
 
 import Contact from '../components/Sections/Contact';
 import Footer from '../components/Sections/Footer';
+import Hero from '../components/Sections/Hero';
+import Resume from '../components/Sections/Resume';
 
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
@@ -15,6 +17,8 @@ const Home: FC = memo(() => {
   return (
     <Page title={title} description={description}>
       <Header />
+      <Hero />
+      <Resume />
       <Contact />
       <Footer />
     </Page>

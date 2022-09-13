@@ -6,6 +6,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import heroImage from '../images/header-background.webp';
 
 import {
   ContactSection,
@@ -38,6 +39,37 @@ export const SectionId = {
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
+
+/**
+ * Hero section
+ */
+export const heroData: Hero = {
+  imageSrc: heroImage,
+  name: `Hi, I'm Payne.`,
+  description: (
+    <>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        I'm a Kansas City based Full Stack Software Engineer, specialized in blah blah blah.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        In my free time time, you can catch me in the gym, hiking wilderness trails, taking street photography, and playing video games.
+      </p>
+    </>
+  ),
+  actions: [
+    {
+      href: '/assets/resume.pdf',
+      text: 'Resume',
+      primary: true,
+      Icon: DownloadIcon,
+    },
+    {
+      href: `#${SectionId.Contact}`,
+      text: 'Contact',
+      primary: false,
+    },
+  ],
+};
 
 
 
