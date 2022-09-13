@@ -105,10 +105,37 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
         name: 'React',
       },
       {
+        name: 'Angular',
+      },
+      {
         name: 'Typescript',
       },
       {
-        name: 'GraphQL',
+        name: 'Next.js',
+      },
+      {
+        name: 'JSX',
+      },
+      {
+        name: 'HTML',
+      },
+      {
+        name: 'CSS',
+      },
+      {
+        name: 'jQuery',
+      },
+      {
+        name: 'Sass',
+      },
+      {
+        name: 'Bootstrap',
+      },
+      {
+        name: 'Angular Material',
+      },
+      {
+        name: 'Tailwind',
       },
     ],
   },
@@ -118,13 +145,57 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
       {
         name: 'Node.js',
       },
+      {
+        name: 'Nest.js',
+      },
+      {
+        name: 'Espress.js',
+      },
+      {
+        name: 'MongoDB',
+      },
+      {
+        name: 'MySQL',
+      },
+      {
+        name: 'TypeORM',
+      },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Programming Languages',
     skills: [
       {
-        name: 'React Native',
+        name: 'Javascript',
+      },
+      {
+        name: 'Python',
+      },
+      {
+        name: 'PHP',
+      },
+      {
+        name: 'C++',
+      },
+    ],
+  },
+  {
+    name: 'Other Technologies',
+    skills: [
+      {
+        name: 'AWS',
+      },
+      {
+        name: 'REST API',
+      },
+      {
+        name: 'GraphQL',
+      },
+      {
+        name: 'Azure Devops',
+      },
+      {
+        name: 'IDocker',
       },
     ],
   },
@@ -209,6 +280,10 @@ export const experience: TimelineItem[] = [
     {
       name: 'Nate Pruessner - Senior Software Engineer Team Lead at Generation Esports',
       text: "If you're looking for a developer that doesn't quit, that keeps learning, and keeps asking questions to improve, Payne is your guy.",
+    },
+    {
+      name: 'Holly Gray - Human Resources Manager at Generation Esports',
+      text: "From his positive can do attitude to openness to feedback Payne would make an excellent asset to any team.",
     },
   ],
 };
