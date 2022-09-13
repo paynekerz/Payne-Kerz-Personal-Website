@@ -155,6 +155,35 @@ export const skills: SkillGroup[] = [
   },
 ];
 
+/**
+ * Portfolio section
+ */
+export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'Placeholder',
+    description: 'blah blah blah',
+    url: 'https://github.com/paynekerz',
+    imageUrl: 'https://source.unsplash.com/collection/51517718/',
+  },
+  {
+    title: 'Placeholder',
+    description: 'blah blah blah',
+    url: 'https://github.com/paynekerz',
+    imageUrl: 'https://source.unsplash.com/collection/51517718/',
+  },
+  {
+    title: 'Placeholder',
+    description: 'blah blah blah',
+    url: 'https://github.com/paynekerz',
+    imageUrl: 'https://source.unsplash.com/collection/51517718/',
+  },
+  {
+    title: 'Placeholder',
+    description: 'blah blah blah',
+    url: 'https://github.com/paynekerz',
+    imageUrl: 'https://source.unsplash.com/collection/51517718/',
+  },
+];
 
 
 export const experience: TimelineItem[] = [
@@ -169,7 +198,6 @@ export const experience: TimelineItem[] = [
     ),
   },
 ];
-
 
 /**
  * Resume section 
@@ -189,36 +217,6 @@ export const education: TimelineItem[] = [
   },
 
 ];
-/**
- * Portfolio section
- */
- export const portfolioItems: PortfolioItem[] = [
-  {
-    title: 'Placeholder',
-    description: 'blah blah blah',
-    url: 'https://github.com/paynekerz',
-    imageUrl: 'https://source.unsplash.com/collection/51517718/',
-  },
-  {
-    title: 'Placeholder',
-    description: 'blah blah blah',
-    url: 'https://github.com/paynekerz',
-    imageUrl: 'https://source.unsplash.com/collection/51517718/',
-  },
-  {
-    title: 'Placeholder',
-    description: 'blah blah blah',
-    url: 'https://github.com/paynekerz',
-    imageUrl: 'https://source.unsplash.com/collection/51517718/',
-  },
-  {
-    title: 'Placeholder',
-    description: 'blah blah blah',
-    url: 'https://github.com/paynekerz',
-    imageUrl: 'https://source.unsplash.com/collection/51517718/',
-  },
-];
-
 /**
  * Contact section
  */
