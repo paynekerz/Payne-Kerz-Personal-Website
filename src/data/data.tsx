@@ -67,7 +67,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://drive.google.com/file/d/1FlRIpYF4vu6YT_yX9zOKLw3IR8jgvL4k/view',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -214,27 +214,15 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
 
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Placeholder',
-    description: 'blah blah blah',
-    url: 'https://github.com/paynekerz',
+    title: 'My website',
+    description: 'The code to this website',
+    url: 'https://github.com/paynekerz/Payne-Kerz-Personal-Website',
     imageUrl: 'https://source.unsplash.com/collection/51517718/',
   },
   {
-    title: 'Placeholder',
-    description: 'blah blah blah',
-    url: 'https://github.com/paynekerz',
-    imageUrl: 'https://source.unsplash.com/collection/51517718/',
-  },
-  {
-    title: 'Placeholder',
-    description: 'blah blah blah',
-    url: 'https://github.com/paynekerz',
-    imageUrl: 'https://source.unsplash.com/collection/51517718/',
-  },
-  {
-    title: 'Placeholder',
-    description: 'blah blah blah',
-    url: 'https://github.com/paynekerz',
+    title: 'Intents',
+    description: '(Offline) A social media app for keeping track of and rating national parks you want to see.',
+    url: 'https://github.com/paynekerz/i-n-t-e-n-t-s',
     imageUrl: 'https://source.unsplash.com/collection/51517718/',
   },
 ];

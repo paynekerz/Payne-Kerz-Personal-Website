@@ -13,7 +13,7 @@ import Resume from '../components/Sections/Resume';
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
 const Home: FC = memo(() => {
-  const title = "Payne Kerz's Portfolio";
+  const title = "Payne Kerz's Website";
   const description = "";
 
   return (
