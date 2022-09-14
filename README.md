@@ -1,5 +1,7 @@
 # My React Portfolio
 
+![personal website image](./personal-website.PNG)
+
 ## [ Check It Out!](https://payne-kerz-personal-website.vercel.app/)
 
 ## Description
