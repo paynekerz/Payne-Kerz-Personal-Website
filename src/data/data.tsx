@@ -221,7 +221,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'My website',
     description: 'The code to this website!',
     url: 'https://github.com/paynekerz/Payne-Kerz-Personal-Website',
-    imageUrl: 'https://source.unsplash.com/collection/51517718/',
+    imageUrl: 'https://raw.githubusercontent.com/paynekerz/Payne-Kerz-Personal-Website/master/personal-website.PNG',
   },
   {
     title: 'Intents',
