@@ -259,7 +259,7 @@ export const experience: TimelineItem[] = [
       <p>
         As a full stack engineer, I performed front and Back-end programming of an esports tournament application that utilized Angular.js framework. I created components and contributed to the codebase using Typscript, Nest.js, Node.js, and MySQL. I also utilized other technologies like Amazon Web Services, GraphQL, and REST API, to name a few.
 
-I personally coordinated with the CTO and other engineers to develop ideas that would provide business and user value to the platform. During my time at Generation eSports, my two most significant projects were refactoring a service to include better security checks, utilizing previously unused components in the codebase, and reformatting the single elimination tournaments to include proper scalable consolation brackets. I also worked alongside the Competitive Experiences team to create a better user experience. You can find more information on my skills and competencies below! 
+I personally coordinated with the CTO and other engineers to develop ideas that would provide business and user value to the platform. During my time at Generation Esports, my two most significant projects were refactoring a service to include better security checks, utilizing previously unused components in the codebase, and reformatting the single elimination tournaments to include proper scalable consolation brackets. I also worked alongside the Competitive Experiences team to create a better user experience. You can find more information on my skills and competencies below! 
 
       </p>
     ),
@@ -270,7 +270,7 @@ I personally coordinated with the CTO and other engineers to develop ideas that 
     title: 'Barista',
     content: (
       <p>
-        s a barista, I demonstrated great teamwork by cooperating with and assisting co-workers, especially during peak periods. I also assisted in training new employees while providing a positive team environment. I also demonstrated best practice selling techniques to new baristas by establishing good communication with our customers and showing them how to help customers in their decision-making.
+        As barista, I demonstrated great teamwork by cooperating with and assisting co-workers, especially during peak periods. I also assisted in training new employees while providing a positive team environment. I also demonstrated best practice selling techniques to new baristas by establishing good communication with our customers and showing them how to help customers in their decision-making.
       </p>
     ),
   },
