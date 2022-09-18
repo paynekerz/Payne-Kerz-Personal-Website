@@ -1,10 +1,4 @@
-import {
-  AcademicCapIcon,
-  CalendarIcon,
-  DownloadIcon,
-  MapIcon,
-  SparklesIcon,
-} from '@heroicons/react/outline';
+import {AcademicCapIcon, CalendarIcon, DownloadIcon, MapIcon, SparklesIcon} from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
@@ -52,18 +46,19 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
 /**
  * Hero section
  */
- export const heroData: Hero = {
+export const heroData: Hero = {
   imageSrc: heroImage,
   name: `Hi, I'm Payne.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      I’m a Full Stack Software Engineer currently based in Kansas City, Missouri. I am currently looking for career opportunities in the field of software engineering.
-In my free time, you can catch me in the gym, hiking wilderness trails, taking street photography, and playing video games.
-
+        I’m a Full Stack Software Engineer currently based in Kansas City, Missouri. I am currently looking for career
+        opportunities in the field of software engineering. In my free time, you can catch me in the gym, hiking
+        wilderness trails, taking street photography, and playing video games.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me in the gym, hiking wilderness trails, taking street photography, and playing video games.
+        In my free time time, you can catch me in the gym, hiking wilderness trails, taking street photography, and
+        playing video games.
       </p>
     </>
   ),
@@ -85,7 +80,7 @@ In my free time, you can catch me in the gym, hiking wilderness trails, taking s
 /**
  * About section
  */
- export const aboutData: About = {
+export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I’m an athlete at heart with an entrepreneurial spirit, a knack for communication, and a passion for programming. Born in the land of Lincoln, Springfield, Illinois, I made my move to Kansas City to pursue my career in full stack software development.
   Outside of work I am an avid gym enthusiast, photographer, nature lover, and gamer. I am naturally curious and have an obsessive drive to learn, discover, and improve. I developed the much of my early work while hiking the mountain ranges of Arizona and dream of taking my work along as I explore the world.
@@ -101,7 +96,7 @@ In my free time, you can catch me in the gym, hiking wilderness trails, taking s
 /**
  * Skills section
  */
- export const skills: SkillGroup[] = [
+export const skills: SkillGroup[] = [
   {
     name: 'Frontend development',
     skills: [
@@ -229,12 +224,18 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/paynekerz/i-n-t-e-n-t-s',
     imageUrl: 'https://raw.githubusercontent.com/paynekerz/i-n-t-e-n-t-s/main/image1.png',
   },
+  {
+    title: 'Note Taker',
+    description: 'A Note Taker I build uitlizing React and SASS',
+    url: 'https://github.com/paynekerz/New-Note-Taker',
+    imageUrl: 'https://raw.githubusercontent.com/paynekerz/New-Note-Taker/master/note-taker.PNG',
+  },
 ];
 
 /**
- * Resume section 
+ * Resume section
  */
- export const education: TimelineItem[] = [
+export const education: TimelineItem[] = [
   {
     date: 'May 2021 - August 2021',
     location: 'University of Arizona',
@@ -247,7 +248,6 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'General Studies with coursework in Computer Science and Mathematics',
     content: <p>106 Credit Hours. Bachelor of Arts</p>,
   },
-
 ];
 
 export const experience: TimelineItem[] = [
@@ -257,10 +257,15 @@ export const experience: TimelineItem[] = [
     title: 'Full Stack Engineer',
     content: (
       <p>
-        As a full stack engineer, I performed front and Back-end programming of an esports tournament application that utilized Angular.js framework. I created components and contributed to the codebase using Typscript, Nest.js, Node.js, and MySQL. I also utilized other technologies like Amazon Web Services, GraphQL, and REST API, to name a few.
-
-I personally coordinated with the CTO and other engineers to develop ideas that would provide business and user value to the platform. During my time at Generation Esports, my two most significant projects were refactoring a service to include better security checks, utilizing previously unused components in the codebase, and reformatting the single elimination tournaments to include proper scalable consolation brackets. I also worked alongside the Competitive Experiences team to create a better user experience. You can find more information on my skills and competencies below! 
-
+        As a full stack engineer, I performed front and Back-end programming of an esports tournament application that
+        utilized Angular.js framework. I created components and contributed to the codebase using Typscript, Nest.js,
+        Node.js, and MySQL. I also utilized other technologies like Amazon Web Services, GraphQL, and REST API, to name
+        a few. I personally coordinated with the CTO and other engineers to develop ideas that would provide business
+        and user value to the platform. During my time at Generation Esports, my two most significant projects were
+        refactoring a service to include better security checks, utilizing previously unused components in the codebase,
+        and reformatting the single elimination tournaments to include proper scalable consolation brackets. I also
+        worked alongside the Competitive Experiences team to create a better user experience. You can find more
+        information on my skills and competencies below!
       </p>
     ),
   },
@@ -270,7 +275,10 @@ I personally coordinated with the CTO and other engineers to develop ideas that 
     title: 'Barista',
     content: (
       <p>
-        As barista, I demonstrated great teamwork by cooperating with and assisting co-workers, especially during peak periods. I also assisted in training new employees while providing a positive team environment. I also demonstrated best practice selling techniques to new baristas by establishing good communication with our customers and showing them how to help customers in their decision-making.
+        As barista, I demonstrated great teamwork by cooperating with and assisting co-workers, especially during peak
+        periods. I also assisted in training new employees while providing a positive team environment. I also
+        demonstrated best practice selling techniques to new baristas by establishing good communication with our
+        customers and showing them how to help customers in their decision-making.
       </p>
     ),
   },
@@ -280,7 +288,9 @@ I personally coordinated with the CTO and other engineers to develop ideas that 
     title: 'Cage Cashier',
     content: (
       <p>
-        While working as a cage cashier, I maintained a drawer of more than $50k while providing a prompt and friendly service to customers. I also utilized my skills in mathematics to quickly and accurately cash out chips, vouchers, and jackpots to patrons and maintained zero overages or shortages.
+        While working as a cage cashier, I maintained a drawer of more than $50k while providing a prompt and friendly
+        service to customers. I also utilized my skills in mathematics to quickly and accurately cash out chips,
+        vouchers, and jackpots to patrons and maintained zero overages or shortages.
       </p>
     ),
   },
@@ -290,7 +300,9 @@ I personally coordinated with the CTO and other engineers to develop ideas that 
     title: 'Leasing Consultant',
     content: (
       <p>
-        During my time as a leasing consultant I was responsible interacting directly with current and prospective tenants in person, by phone, or online, and renewals while providing a high degree of customer service in a fast-paced environment. 
+        During my time as a leasing consultant I was responsible interacting directly with current and prospective
+        tenants in person, by phone, or online, and renewals while providing a high degree of customer service in a
+        fast-paced environment.
       </p>
     ),
   },
@@ -299,7 +311,7 @@ I personally coordinated with the CTO and other engineers to develop ideas that 
 /**
  * Testimonial section
  */
- export const testimonial: TestimonialSection = {
+export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
@@ -308,7 +320,7 @@ I personally coordinated with the CTO and other engineers to develop ideas that 
     },
     {
       name: 'Holly Gray - Human Resources Manager at Generation Esports',
-      text: "From his positive can do attitude to openness to feedback Payne would make an excellent asset to any team.",
+      text: 'From his positive can do attitude to openness to feedback Payne would make an excellent asset to any team.',
     },
   ],
 };
@@ -317,9 +329,10 @@ I personally coordinated with the CTO and other engineers to develop ideas that 
  * Contact section
  */
 
- export const contact: ContactSection = {
+export const contact: ContactSection = {
   headerText: 'Reach Out.',
-  description: 'Have a project for me? Looking to integrate my skills into your team? Feel free to give me a shout by email! Thank you for stopping by my site and I look forward to connecting with you!',
+  description:
+    'Have a project for me? Looking to integrate my skills into your team? Feel free to give me a shout by email! Thank you for stopping by my site and I look forward to connecting with you!',
   items: [
     {
       type: ContactType.Email,
@@ -347,7 +360,7 @@ I personally coordinated with the CTO and other engineers to develop ideas that 
 /**
  * Socials
  */
- export const socialLinks: Social[] = [
+export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/paynekerz'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/paynekerz/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/payne_kerz/'},
