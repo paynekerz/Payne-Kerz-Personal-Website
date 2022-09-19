@@ -227,8 +227,14 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Note Taker',
     description: 'A Note Taker I build uitlizing React and SASS',
-    url: 'https://github.com/paynekerz/New-Note-Taker',
+    url: 'https://dazzling-narwhal-0eaca7.netlify.app/',
     imageUrl: 'https://raw.githubusercontent.com/paynekerz/New-Note-Taker/master/note-taker.PNG',
+  },
+  {
+    title: 'Weather Dashboard',
+    description: 'A react weather dashboard that utilizes GeoDB Cities and Open Weather APIs',
+    url: 'https://6328a47aca3f131e6ad73ae3--sage-zuccutto-fea31d.netlify.app/',
+    imageUrl: 'https://picsum.photos/300/150',
   },
 ];
 
