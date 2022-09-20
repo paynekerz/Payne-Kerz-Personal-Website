@@ -234,7 +234,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Weather Dashboard',
     description: 'A react weather dashboard that utilizes GeoDB Cities and Open Weather APIs',
     url: 'https://6328a47aca3f131e6ad73ae3--sage-zuccutto-fea31d.netlify.app/',
-    imageUrl: 'https://picsum.photos/300/150',
+    imageUrl: 'https://raw.githubusercontent.com/paynekerz/React-Weather-App/master/weather.PNG',
   },
 ];
 
