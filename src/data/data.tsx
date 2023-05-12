@@ -87,8 +87,8 @@ export const aboutData: About = {
   `,
   aboutItems: [
     {label: 'Location', text: 'Kansas City, MO', Icon: MapIcon},
-    {label: 'Age', text: '26', Icon: CalendarIcon},
-    {label: 'Interests', text: 'Hiking, Photography, Video Games', Icon: SparklesIcon},
+    {label: 'Age', text: '27', Icon: CalendarIcon},
+    {label: 'Interests', text: 'Hiking, Photography, Video Games, Boxing', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Kansas', Icon: AcademicCapIcon},
   ],
 };
@@ -98,22 +98,10 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Frontend development',
+    name: 'Programming Languages',
     skills: [
       {
-        name: 'React',
-      },
-      {
-        name: 'Angular',
-      },
-      {
         name: 'Typescript',
-      },
-      {
-        name: 'Next.js',
-      },
-      {
-        name: 'JSX',
       },
       {
         name: 'HTML',
@@ -122,79 +110,103 @@ export const skills: SkillGroup[] = [
         name: 'CSS',
       },
       {
-        name: 'jQuery',
+        name: 'PHP',
       },
       {
-        name: 'Sass',
+        name: 'C#',
       },
       {
-        name: 'Bootstrap',
-      },
-      {
-        name: 'Angular Material',
-      },
-      {
-        name: 'Tailwind',
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-      },
-      {
-        name: 'Nest.js',
-      },
-      {
-        name: 'Espress.js',
-      },
-      {
-        name: 'MongoDB',
-      },
-      {
-        name: 'MySQL',
-      },
-      {
-        name: 'TypeORM',
-      },
-    ],
-  },
-  {
-    name: 'Programming Languages',
-    skills: [
-      {
-        name: 'Javascript',
+        name: 'C++',
       },
       {
         name: 'Python',
       },
       {
-        name: 'PHP',
-      },
-      {
-        name: 'C++',
+        name: 'Java',
       },
     ],
   },
   {
-    name: 'Other Technologies',
+    name: 'Frameworks',
     skills: [
       {
-        name: 'AWS',
+        name: 'React.js',
       },
       {
-        name: 'REST API',
+        name: 'Angular.js',
       },
       {
-        name: 'GraphQL',
+        name: '.NET',
+      },
+      {
+        name: 'Node.js',
+      },
+      {
+        name: 'Next.js',
+      },
+      {
+        name: 'Nest.js',
+      },
+      {
+        name: 'Express.js',
+      },
+    ],
+  },
+  {
+    name: 'Tools and Other Technologies',
+    skills: [
+      {
+        name: 'Microsoft Office Suite',
+      },
+      {
+        name: 'Visual Studio',
+      },
+      {
+        name: 'Azure Cloud Services',
       },
       {
         name: 'Azure Devops',
       },
       {
-        name: 'IDocker',
+        name: 'AWS',
+      },
+      {
+        name: 'GraphQL',
+      },
+      {
+        name: 'Docker',
+      },
+      {
+        name: 'LaunchDarkly',
+      },
+      {
+        name: 'WorkCenter',
+      },
+      {
+        name: 'Insomnia',
+      },
+      {
+        name: 'Postman',
+      },
+      {
+        name: 'Git',
+      },
+    ],
+  },
+  {
+    name: 'Databases',
+    skills: [
+      {
+        name: 'MySQL',
+      },
+      {
+        name: 'SQL',
+      },
+      {
+        name: 'MongoDB',
+      },
+      {
+        name: 'C++',
       },
     ],
   },
@@ -243,6 +255,12 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
+    date: 'March 2023',
+    location: 'Microsoft Azure',
+    title: 'AZ-900 Microsoft Azure Fundamentals',
+    content: <p>Certificate of Completion</p>,
+  },
+  {
     date: 'May 2021 - August 2021',
     location: 'University of Arizona',
     title: 'Full Stack Web Development Program',
@@ -251,27 +269,58 @@ export const education: TimelineItem[] = [
   {
     date: 'August 2015 - January 2020',
     location: 'University of Kansas',
-    title: 'General Studies with coursework in Computer Science and Mathematics',
-    content: <p>106 Credit Hours. Bachelor of Arts</p>,
+    title: 'Computer Science and Communications',
+    content: <p>Bachelor of Arts</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
+  {
+    date: 'January 2023 - Present',
+    location: 'H&R Block',
+    title: 'Software Engineer',
+    content: (
+      <p>
+        As a software engineer at H&R Block, I worked on an enterprise-level application that connected customers to tax
+        professionals. My responsibilities included working on the front and back end utilizing Angular.js, Typescript,
+        and Python. I also created and maintained REST APIs with .NET core, implemented standardized unit testing, and
+        interacted with the database schema using CloudDB and SQL. In addition to completing bug fixes, I participated
+        in corporate hackathons and mentored college students. I coordinated with an international team in an agile
+        environment to streamline project completion. Overall, my experience at H&R Block allowed me to develop my
+        skills and make meaningful contributions to a complex project.
+      </p>
+    ),
+  },
+  {
+    date: 'September 2022 - January 2023',
+    location: 'Blade and Timber',
+    title: 'Coach',
+    content: (
+      <p>
+        When was a Coach for Blade and Timber, I instructed customers on safety measures and how to throw axes for a
+        safe and enjoyable evening. Prior to each event, I exhibited my public speaking skills by explaining the rules
+        and basics of the activity. I accurately took customers' food and drink orders in a prompt and professional
+        manner, while also demonstrating the ability to juggle multiple tasks, such as attending to customers, taking
+        down and setting up wooden targets, and cleaning tables. Additionally, I mixed cocktails with accuracy using
+        provided recipes, ensuring a delightful experience for all patrons.
+      </p>
+    ),
+  },
   {
     date: 'February 2022 - September 2022',
     location: 'Generation Esports',
     title: 'Full Stack Engineer',
     content: (
       <p>
-        As a full stack engineer, I performed front and Back-end programming of an esports tournament application that
-        utilized Angular.js framework. I created components and contributed to the codebase using Typscript, Nest.js,
-        Node.js, and MySQL. I also utilized other technologies like Amazon Web Services, GraphQL, and REST API, to name
-        a few. I personally coordinated with the CTO and other engineers to develop ideas that would provide business
-        and user value to the platform. During my time at Generation Esports, my two most significant projects were
-        refactoring a service to include better security checks, utilizing previously unused components in the codebase,
-        and reformatting the single elimination tournaments to include proper scalable consolation brackets. I also
-        worked alongside the Competitive Experiences team to create a better user experience. You can find more
-        information on my skills and competencies below!
+        As a Full Stack Software Engineer for Generation Esports, I worked on both the front and back end using
+        Angular.js, TypeORM, GraphQL, Nest.js, Node.js, and MongoDB to add components to the platform. I employed
+        various languages such as Typescript, PHP, and MySQL to contribute to the codebase. Additionally, I refactored a
+        service to include better security checks and runtimes, and improved the single elimination tournament system by
+        adding a proper consolation bracket and enhancing match flow. I participated in daily stand-up meetings and
+        bi-weekly sprint retrospective and planning meetings, both on-site and remotely, in a pod structure alongside
+        the CTO and Competitive Experience teams. Throughout, I established and maintained excellent communication and
+        working relationships with the engineering team, cross-functional departments, and end-users to ensure the
+        highest level of productivity and effectiveness.
       </p>
     ),
   },
@@ -281,10 +330,16 @@ export const experience: TimelineItem[] = [
     title: 'Barista',
     content: (
       <p>
-        As barista, I demonstrated great teamwork by cooperating with and assisting co-workers, especially during peak
-        periods. I also assisted in training new employees while providing a positive team environment. I also
-        demonstrated best practice selling techniques to new baristas by establishing good communication with our
-        customers and showing them how to help customers in their decision-making.
+        During my time as a Lead Barista at Starbucks, I demonstrated great teamwork by assisting co-workers and helping
+        with new partner training by positively reinforcing alarms or changes in partner morale and performance. I
+        responded to customer questions efficiently and effectively, serving as an advocate of selling techniques by
+        establishing good communication and assisting in the buying decision-making process. Additionally, I contributed
+        to a positive team environment by recognizing alarms or changes in partner morale and performance and
+        communicating them to the store manager. I met with the manager upon arrival to discuss shift set-up and checked
+        out with a manager before leaving to ensure all duties were completed, including assisting in daily food and
+        beverage inventory management and control. As a trainer, I shared my skills and trained aspiring baristas in the
+        art of making coffee drinks and customer service. Overall, I performed all pre-shift and post-shift duties, side
+        work, and related paperwork with a focus on excellence.
       </p>
     ),
   },
@@ -294,9 +349,12 @@ export const experience: TimelineItem[] = [
     title: 'Cage Cashier',
     content: (
       <p>
-        While working as a cage cashier, I maintained a drawer of more than $50k while providing a prompt and friendly
-        service to customers. I also utilized my skills in mathematics to quickly and accurately cash out chips,
-        vouchers, and jackpots to patrons and maintained zero overages or shortages.
+        As a cage cashier at a casino, I maintained a cash drawer of more than $50k while providing prompt, friendly
+        service to customers. I was responsible for cashing out chips, vouchers, and jackpots to patrons, promoting a
+        positive interaction with them and other team members while on the floor. I operated the cage window, performing
+        all transactions while providing a high level of customer service. Additionally, I worked in a bank of $24
+        million providing other cashiers with the requested money, maintained zero overages or shortages while managing
+        the cash cage, and obtained a Gaming License after passing all background checks.
       </p>
     ),
   },
@@ -306,9 +364,11 @@ export const experience: TimelineItem[] = [
     title: 'Leasing Consultant',
     content: (
       <p>
-        During my time as a leasing consultant I was responsible interacting directly with current and prospective
-        tenants in person, by phone, or online, and renewals while providing a high degree of customer service in a
-        fast-paced environment.
+        During my time, I interacted with current and prospective tenants in person, by phone, or online. I was
+        responsible for all activities related to apartment rentals, move-ins, lease agreements, and renewals. This
+        included qualifying prospects and preparing lease documents while following company policies and procedures. I
+        ensured that any needs or concerns of residents were handled in a timely and professional manner while providing
+        a high degree of customer service in a fast-paced environment.
       </p>
     ),
   },
