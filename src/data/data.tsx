@@ -205,9 +205,6 @@ export const skills: SkillGroup[] = [
       {
         name: 'MongoDB',
       },
-      {
-        name: 'C++',
-      },
     ],
   },
   {
@@ -215,9 +212,6 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English - Native',
-      },
-      {
-        name: 'Japanese - Beginner',
       },
     ],
   },
