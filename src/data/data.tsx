@@ -219,22 +219,51 @@ export const skills: SkillGroup[] = [
 
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'My website',
+    title: 'My Website',
     description: 'The code to this website!',
     url: 'https://github.com/paynekerz/Payne-Kerz-Personal-Website',
     imageUrl: 'https://raw.githubusercontent.com/paynekerz/Payne-Kerz-Personal-Website/master/personal-website.PNG',
   },
   {
-    title: 'Intents',
-    description: '(Offline) A social media app for keeping track of and rating national parks you want to see.',
-    url: 'https://github.com/paynekerz/i-n-t-e-n-t-s',
-    imageUrl: 'https://raw.githubusercontent.com/paynekerz/i-n-t-e-n-t-s/main/image1.png',
+    title: 'Music Player',
+    description: 'A music player application coded entirely in C#.',
+    url: 'https://github.com/paynekerz/MusicPlayerApp',
+    imageUrl:
+      'https://raw.githubusercontent.com/paynekerz/MusicPlayerApp/master/images/good_times_with_bad_music_1050x700.webp',
+  },
+  {
+    title: 'Obstacle Runner',
+    description:
+      'My first Unreal project. An incredibly simple 3D platform Runner. I plan on expanding this to include more levels. Coded with C++.',
+    url: 'https://github.com/paynekerz/ObstacleRunner',
+    imageUrl:
+      'https://raw.githubusercontent.com/paynekerz/ObstacleRunner/main/Runner.PNG?token=GHSAT0AAAAAACGJ3NWRFE2BHYXDHKU44EKGZG223CQ',
+  },
+  {
+    title: 'Tic Tac Toe',
+    description: 'A Tic Tac Toe app coded in C#.',
+    url: 'https://github.com/paynekerz/TicTacToe',
+    imageUrl:
+      'https://raw.githubusercontent.com/paynekerz/TicTacToe/master/apps.2005.14057826194083709.67242c47-4fd7-4f1a-9dd6-5d93f6cc10df.png',
   },
   {
     title: 'Note Taker',
     description: 'A Note Taker I build uitlizing React and SASS',
     url: 'https://dazzling-narwhal-0eaca7.netlify.app/',
     imageUrl: 'https://raw.githubusercontent.com/paynekerz/New-Note-Taker/master/note-taker.PNG',
+  },
+  {
+    title: 'C++ Calculator',
+    description: 'A Calculator that functions as a normal and scientific calculator. Coded in C++',
+    url: 'https://github.com/paynekerz/CPPCalculator',
+    imageUrl:
+      'https://raw.githubusercontent.com/paynekerz/CPPCalculator/master/images/istockphoto-603187710-612x612.jpg',
+  },
+  {
+    title: 'C# Note Taker',
+    description: 'Another note taker this time coded with C#',
+    url: 'https://github.com/paynekerz/ScribeNoteTaker',
+    imageUrl: 'https://raw.githubusercontent.com/paynekerz/ScribeNoteTaker/master/s-l1200.jpg',
   },
   {
     title: 'Weather Dashboard',
@@ -249,6 +278,12 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
+    date: 'August 2015 - January 2020',
+    location: 'University of Kansas',
+    title: 'Computer Science and Communications',
+    content: <p>Bachelor of Arts</p>,
+  },
+  {
     date: 'March 2023',
     location: 'Microsoft Azure',
     title: 'AZ-900 Microsoft Azure Fundamentals',
@@ -260,12 +295,6 @@ export const education: TimelineItem[] = [
     title: 'Full Stack Web Development Program',
     content: <p>Certificate of Completion</p>,
   },
-  {
-    date: 'August 2015 - January 2020',
-    location: 'University of Kansas',
-    title: 'Computer Science and Communications',
-    content: <p>Bachelor of Arts</p>,
-  },
 ];
 
 export const experience: TimelineItem[] = [
@@ -275,13 +304,15 @@ export const experience: TimelineItem[] = [
     title: 'Software Engineer',
     content: (
       <p>
-        As a software engineer at H&R Block, I worked on an enterprise-level application that connected customers to tax
-        professionals. My responsibilities included working on the front and back end utilizing Angular.js, Typescript,
-        and Python. I also created and maintained REST APIs with .NET core, implemented standardized unit testing, and
-        interacted with the database schema using CloudDB and SQL. In addition to completing bug fixes, I participated
-        in corporate hackathons and mentored college students. I coordinated with an international team in an agile
-        environment to streamline project completion. Overall, my experience at H&R Block allowed me to develop my
-        skills and make meaningful contributions to a complex project.
+        In my role as a software engineer at H&R Block, I am a pivotal part of the development of an enterprise-level
+        application that facilitates connections between customers and tax professionals. My multifaceted
+        responsibilities encompass proficiently working across the front and back ends using Angular.js, Typescript, and
+        Python. I excel in crafting and upholding REST APIs within .NET Core, champion the implementation of
+        standardized unit testing, and adeptly maneuver through CloudDB's database schema using SQL. Beyond technical
+        contributions, I actively address bugs, enthusiastically engage in corporate hackathons, and provide mentorship
+        to college students, all while seamlessly collaborating within an agile, international team environment. In
+        essence, my journey at H&R Block enriches my skill set and enables me to make enduring contributions to a
+        sophisticated project.
       </p>
     ),
   },
