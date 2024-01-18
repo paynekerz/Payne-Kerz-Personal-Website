@@ -191,6 +191,12 @@ export const skills: SkillGroup[] = [
       {
         name: 'Git',
       },
+      {
+        name: 'Unreal 5',
+      },
+      {
+        name: 'Unity',
+      },
     ],
   },
   {
@@ -278,7 +284,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'August 2015 - January 2020',
+    date: 'August 2015 - December 2019',
     location: 'University of Kansas',
     title: 'Computer Science and Communications',
     content: <p>Bachelor of Arts</p>,
@@ -339,7 +345,7 @@ export const experience: TimelineItem[] = [
       <p>
         As a Full Stack Software Engineer for Generation Esports, I worked on both the front and back end using
         Angular.js, TypeORM, GraphQL, Nest.js, Node.js, and MongoDB to add components to the platform. I employed
-        various languages such as Typescript, PHP, and MySQL to contribute to the codebase. Additionally, I refactored a
+        various languages such as Typescript, C#, and MySQL to contribute to the codebase. Additionally, I refactored a
         service to include better security checks and runtimes, and improved the single elimination tournament system by
         adding a proper consolation bracket and enhancing match flow. I participated in daily stand-up meetings and
         bi-weekly sprint retrospective and planning meetings, both on-site and remotely, in a pod structure alongside
