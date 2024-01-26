@@ -238,12 +238,18 @@ export const portfolioItems: PortfolioItem[] = [
       'https://raw.githubusercontent.com/paynekerz/MusicPlayerApp/master/images/good_times_with_bad_music_1050x700.webp',
   },
   {
+    title: 'Large Language Model',
+    description: 'A pet project of mine; a large language model built out of Jupyter Notebook and Python.',
+    url: 'https://github.com/paynekerz/PythonLLM',
+    imageUrl: 'https://raw.githubusercontent.com/paynekerz/PythonLLM/master/960x0.webp',
+  },
+  {
     title: 'Obstacle Runner',
     description:
       'My first Unreal project. An incredibly simple 3D platform Runner. I plan on expanding this to include more levels. Coded with C++.',
     url: 'https://github.com/paynekerz/ObstacleRunner',
     imageUrl:
-      'https://raw.githubusercontent.com/paynekerz/ObstacleRunner/main/Runner.PNG?token=GHSAT0AAAAAACGJ3NWRFE2BHYXDHKU44EKGZG223CQ',
+      'https://raw.githubusercontent.com/paynekerz/ObstacleRunner/main/Runner.PNG?token=GHSAT0AAAAAACNGSLR35VXQMQC6KV34V2MMZNT2OKQ',
   },
   {
     title: 'Tic Tac Toe',
