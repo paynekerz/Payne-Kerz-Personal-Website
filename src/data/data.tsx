@@ -64,7 +64,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1FlRIpYF4vu6YT_yX9zOKLw3IR8jgvL4k/view',
+      href: 'https://drive.google.com/file/d/1Dt_zczqcaUBShLjPtKOkiRmCLNGvSPTD/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -101,7 +101,10 @@ export const skills: SkillGroup[] = [
     name: 'Programming Languages',
     skills: [
       {
-        name: 'Typescript',
+        name: 'TypeScript',
+      },
+      {
+        name: 'JavaScript',
       },
       {
         name: 'HTML',
@@ -121,22 +124,19 @@ export const skills: SkillGroup[] = [
       {
         name: 'Python',
       },
-      {
-        name: 'Java',
-      },
     ],
   },
   {
     name: 'Frameworks',
     skills: [
       {
-        name: 'React.js',
+        name: 'ReactJS',
       },
       {
-        name: 'Angular.js',
+        name: 'AngularJS',
       },
       {
-        name: '.NET',
+        name: 'NET',
       },
       {
         name: 'Node.js',
@@ -150,52 +150,31 @@ export const skills: SkillGroup[] = [
       {
         name: 'Express.js',
       },
+      {
+        name: 'SwiftUI',
+      },
     ],
   },
   {
-    name: 'Tools and Other Technologies',
+    name: 'Tools',
     skills: [
       {
-        name: 'Microsoft Office Suite',
-      },
-      {
-        name: 'Visual Studio',
-      },
-      {
         name: 'Azure Cloud Services',
-      },
-      {
-        name: 'Azure Devops',
       },
       {
         name: 'AWS',
       },
       {
-        name: 'GraphQL',
-      },
-      {
         name: 'Docker',
       },
       {
-        name: 'LaunchDarkly',
-      },
-      {
-        name: 'WorkCenter',
-      },
-      {
-        name: 'Insomnia',
-      },
-      {
-        name: 'Postman',
+        name: 'Kubernetes',
       },
       {
         name: 'Git',
       },
       {
-        name: 'Unreal 5',
-      },
-      {
-        name: 'Unity',
+        name: 'Microsoft Sentinel',
       },
     ],
   },
@@ -206,13 +185,14 @@ export const skills: SkillGroup[] = [
         name: 'MySQL',
       },
       {
-        name: 'SQL',
+        name: 'PostgreSQL',
       },
       {
         name: 'MongoDB',
       },
     ],
   },
+
   {
     name: 'Spoken languages',
     skills: [
@@ -290,7 +270,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'August 2015 - December 2019',
+    date: 'August 2015 - January 2020',
     location: 'University of Kansas',
     title: 'Computer Science and Communications',
     content: <p>Bachelor of Arts</p>,
@@ -311,7 +291,24 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'January 2023 - Present',
+    date: 'February 2024 - Present',
+    location: 'MemoryBank',
+    title: 'Software Engineer',
+    content: (
+      <p>
+        In my role as a Software Engineer at MemoryBank, I contribute significantly to the front-end engineering of a
+        cutting-edge blockchain web application, focusing on the enhancement and optimization of the user interface
+        through iterative development. Utilizing Ruby on Rails, I create responsive user interfaces that significantly
+        improve user experience within the blockchain space. My responsibilities also extend to Testing & Quality
+        Assurance, where I proactively address scalability issues to optimize application performance and transaction
+        throughput, ensuring platform reliability and security. My tenure at MemoryBank has been marked by my dedication
+        to improving both the functionality and the user interaction with blockchain technology, allowing me to make
+        meaningful contributions to a sophisticated and ambitious project.
+      </p>
+    ),
+  },
+  {
+    date: 'January 2023 - February 2024',
     location: 'H&R Block',
     title: 'Software Engineer',
     content: (
@@ -377,21 +374,6 @@ export const experience: TimelineItem[] = [
         beverage inventory management and control. As a trainer, I shared my skills and trained aspiring baristas in the
         art of making coffee drinks and customer service. Overall, I performed all pre-shift and post-shift duties, side
         work, and related paperwork with a focus on excellence.
-      </p>
-    ),
-  },
-  {
-    date: 'Summer 2020',
-    location: 'Casino KC formerly Isle of Capri',
-    title: 'Cage Cashier',
-    content: (
-      <p>
-        As a cage cashier at a casino, I maintained a cash drawer of more than $50k while providing prompt, friendly
-        service to customers. I was responsible for cashing out chips, vouchers, and jackpots to patrons, promoting a
-        positive interaction with them and other team members while on the floor. I operated the cage window, performing
-        all transactions while providing a high level of customer service. Additionally, I worked in a bank of $24
-        million providing other cashiers with the requested money, maintained zero overages or shortages while managing
-        the cash cage, and obtained a Gaming License after passing all background checks.
       </p>
     ),
   },
