@@ -245,13 +245,6 @@ export const portfolioItems: PortfolioItem[] = [
     imageUrl: 'https://raw.githubusercontent.com/paynekerz/New-Note-Taker/master/note-taker.PNG',
   },
   {
-    title: 'C++ Calculator',
-    description: 'A Calculator that functions as a normal and scientific calculator. Coded in C++',
-    url: 'https://github.com/paynekerz/CPPCalculator',
-    imageUrl:
-      'https://raw.githubusercontent.com/paynekerz/CPPCalculator/master/images/istockphoto-603187710-612x612.jpg',
-  },
-  {
     title: 'C# Note Taker',
     description: 'Another note taker this time coded with C#',
     url: 'https://github.com/paynekerz/ScribeNoteTaker',
