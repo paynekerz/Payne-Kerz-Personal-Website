@@ -87,7 +87,7 @@ export const aboutData: About = {
   `,
   aboutItems: [
     {label: 'Location', text: 'Kansas City, MO', Icon: MapIcon},
-    {label: 'Age', text: '27', Icon: CalendarIcon},
+    {label: 'Age', text: '28', Icon: CalendarIcon},
     {label: 'Interests', text: 'Hiking, Photography, Video Games, Boxing', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Kansas', Icon: AcademicCapIcon},
   ],
@@ -270,22 +270,22 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'August 2015 - January 2020',
+    date: '',
     location: 'University of Kansas',
     title: 'Computer Science and Communications',
-    content: <p>Bachelor of Arts</p>,
+    content: <p></p>,
   },
   {
-    date: 'March 2023',
+    date: '',
     location: 'Microsoft Azure',
     title: 'AZ-900 Microsoft Azure Fundamentals',
-    content: <p>Certificate of Completion</p>,
+    content: <p></p>,
   },
   {
-    date: 'May 2021 - August 2021',
+    date: '',
     location: 'University of Arizona',
     title: 'Full Stack Web Development Program',
-    content: <p>Certificate of Completion</p>,
+    content: <p></p>,
   },
 ];
 
